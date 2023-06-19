@@ -1,6 +1,24 @@
-import Link from 'next/link'
+'use client'
+import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
+  const [showFloatingWindow, setShowFloatingWindow] = useState(false);
+  const [showFloatingWindowSP, setShowFloatingWindowSP] = useState(false);
+
+  const handleNotanClick = () => {
+    setShowFloatingWindow(true);
+  };
+
+  const handleNotanSPClick = () => {
+    setShowFloatingWindowSP(true);
+  };
+
+  const handleCloseClick = () => {
+    setShowFloatingWindow(false);
+    setShowFloatingWindowSP(false);
+  };
+
   return (
     <main className="z-10 flex min-h-screen flex-col items-center justify-between px-5 py-12 sm:p-24">
       <div className="w-full text-center tracking-widest text-2xl">
@@ -22,24 +40,42 @@ export default function Home() {
 
       <div className="w-full flex flex-row gap-7 justify-center sm:gap-0 sm:justify-evenly">
         <div>
-          <Link href="https://notan.vercel.app">
-            <h1 className='font-yatra text-3xl sm:text-4xl'>
-              notan
-            </h1>
-          </Link>
-          <p>
-
-          </p>
+          <h1 className='font-yatra text-3xl sm:text-4xl cursor-pointer' onClick={handleNotanClick}>
+            notan
+          </h1>
         </div>
 
         <div>
-          <h1 className='font-yatra text-3xl sm:text-4xl text-gray-300'>
+          <h1 className='font-yatra text-3xl sm:text-4xl text-gray-300 cursor-pointer' onClick={handleNotanSPClick}>
             notanSP
           </h1>
-          <p>
-          </p>
+
         </div>
       </div>
+
+      {showFloatingWindow && (
+        <div className="fixed z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 px-10 py-20 sm:px-10 sm:py-20 bg-white border border-gray-300 rounded-xl shadow-lg text-center leading-loose tracking-widest">
+          <button className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center rounded-full bg-gray-300" onClick={handleCloseClick}>
+            <span className="text-white text-xs">X</span>
+          </button>
+          <p>個人用<br/>紙とデジタル上の<br/>ノートテイキング<br/>統合サービス</p>
+          <br/>
+          <Link href="https://notan.vercel.app">
+            <p className='underline underline-offset-4'>サービスへ進む</p>
+          </Link>
+        </div>
+      )}
+
+      {showFloatingWindowSP && (
+        <div className="fixed z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 px-10 py-20 sm:px-10 sm:py-20 bg-white border border-gray-300 rounded-xl shadow-lg text-center leading-loose tracking-widest">
+          <button className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center rounded-full bg-gray-300" onClick={handleCloseClick}>
+            <span className="text-white text-xs">X</span>
+          </button>
+          <p>個人用<br/>空間コンピューティング向けの<br/>電子書籍リーダー</p>
+          <br/>
+          <p className='text-yellow-500'>Apple Vision Pro<br/>と同時リリース</p>
+        </div>
+      )}
     </main>
-  )
+  );
 }
