@@ -6,33 +6,26 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between px-5 py-12 sm:p-24">
       <div className="z-10 w-full tracking-widest">
         <p className=''>
-            【草稿】
-            指数関数的に加速するデジタル化の中で、「紙に書く」という行為は無くなって行くどころか、ますます人類にとって大きな価値をもたらすものになると考えています。
-            AIあるいはもう一歩進んでAGIが台頭していく近未来において、人間の価値は、価値判断や創造性によりいっそう集約されます。
-            ライティングにおける、禅的集中、思索、整理、創造、といった行為は、まさにこれらの価値を生み出すための要であり、紙とペンは、そのための最適なパートナーであると考えています。
-            <br/>
-            <br/>
-            notanは、紙の持つ特性を活かした新しいI/O体験を提供します。<br/>
-            - 過去のライティング、埋もれた、金<br/>
-            - 対話的にアクセス<br/>
-            - バックアップ<br/>
-            - セレンディピティを創出する
-            <br/>
-            <br/>
-            notanSPは、一方で、Apple社のVisionProデバイスによって開かれた空間コンピューティングへのアクセスを基に、そのアプリケーションを通して「壁一面の本棚をいつでも、どこでも。」という読書好きの強い願望を叶える体験を、最高なレベルで実現します。
-            <br/>
-            <br/>
-            人間は目から得られる情報から
-            Kindleなどの電子書籍と紙の本と比べて、一番劣るのは一覧性です。
-            <br/>
-            <br/>
-            To be continued...
-
+          Every time talking over iPhone with the woman I was dating at the time, I tried to listen as attentive as possible. She indeed has expressed sincere gratitude multiple times, but the behavior does not come from my nature but an effort to be popular with her. I followed the advice written in a love book such as "Men Are from Mars, Women Are from Venus." However, maybe because I naturally enjoy learning new things, I could enjoy attentive listening, so I often put it into practice because she and I both genuinely liked it.
+          <br/>
+          <br/>
+          Though I don't have a strong desire for others to listen to me, when I chat with friends I sometimes feel that the jumbled thoughts in my head get organized. Unexpected words from my friends can give birth to ideas, and the support or opposition from my companions can give me confidence in my own thoughts or prompt me to reconsider whether it's really a good idea. That's why coffee breaks are something I love so much and cherish. Additionally as someone who cannot help taking lots of notes, once I part ways with my friends, I always immediately jot down the things that resonated with me before I forget.
+          <br/>
+          <br/>
+          In the midst of all this, encountering ChatGPT, you know, this is how notan is born.
+          <br/>
+          <br/>
+          - We do not offer folder
+          <br/>
+          I deeply understand the desire of categorizing notes. I also had ended with tons of folders, every single time.
+          <br/>
+          <br/>
+          - Optimizing for aha moment
+          <br/><br/>
+          - Forget the concept to take notes, notes are generated when you realized
+          <br/><br/>
+          To be continued...
         </p>
-        {/*
-            人間の知性によって生み出されるものになると考えています。
-            AIあるいはAR/VRなどの技術が、人間の知性を拡張するためのツールとして、紙との組み合わせで、新しい価値を生み出すことができると考えています。
-        */}
       </div>
     </main>
   )
