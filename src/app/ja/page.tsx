@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="z-10 flex min-h-screen flex-col items-center justify-between px-5 py-12 sm:p-24">
       <div className="w-full text-center tracking-widest text-2xl">
-        <h1 className=''>notan office</h1>
+        <h1>notan office</h1>
       </div>
 
       <div className="w-full text-center tracking-widest">
@@ -27,7 +27,7 @@ export default function Home() {
             <h1 className='text-3xl sm:text-4xl'>
               notan
             </h1>
-            <p className=''>
+            <p>
               サービスへ進む{' '}&rarr;
             </p>
           </div>

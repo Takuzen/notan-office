@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-5 py-12 sm:p-24">
       <div className="z-10 w-full tracking-widest">
-        <p className=''>
+        <p>
           当時デートしていた女性との電話でしばらく彼女の話に耳を傾けていると、何度か驚くほど感謝された。
           正直この行為は、Men Are from Mars, Women Are from Venusかなんかの恋愛本に書いてあったモテる為の努力であったが、
           新しい物事を知ることが生来好きな性格だからか、傾聴は割と得意で、好きでさえあったから、よく実践していた。
