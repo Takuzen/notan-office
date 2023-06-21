@@ -1,5 +1,4 @@
 'use client'
-import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -29,7 +28,7 @@ export default function Home() {
               notan
             </h1>
             <p className=''>
-              proceed to service &rarr;
+              proceed to service{' '}&rarr;
             </p>
           </div>
         </Link>
