@@ -10,11 +10,11 @@ export default function Home() {
 
       <div className="w-full text-center tracking-widest">
         <h3 className='text-2xl sm:hidden leading-loose'>
-          Note Taking,<br/>
-          Now While Chatting.
+          Conversational Notes,<br/>
+          Your Chat Wall Buddy.
         </h3>
-        <h3 className='text-2xl hidden sm:inline '>
-          Note Taking, Now While Chatting.
+        <h3 className='text-2xl hidden sm:inline leading-loose'>
+          Conversational Notes, Your Chat Wall Buddy.
         </h3>
         <Link href="/whitepaper">
           <h3 className='text-xl mt-10 underline underline-offset-8'>whitepaper</h3>

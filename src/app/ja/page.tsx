@@ -10,11 +10,11 @@ export default function Home() {
 
       <div className="w-full text-center tracking-widest">
         <h3 className='text-2xl sm:hidden leading-loose'>
-          あなたの壁打ちパートナー、<br/>
-          対話型メモアプリ。
+          対話型ノートアプリ、<br/>
+          あなたの壁打ちパートナー。
         </h3>
         <h3 className='text-2xl hidden sm:inline '>
-          あなたの壁打ちパートナー、対話型メモアプリ。
+          対話型ノートアプリ、あなたの壁打ちパートナー。
         </h3>
         <Link href="/ja/whitepaper">
           <h3 className='text-xl mt-10 underline underline-offset-8'>白書</h3>
