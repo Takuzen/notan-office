@@ -51,6 +51,7 @@ const Home: React.FC = () => {
             </>
           )}
         </h3>
+        {/*
         <h3 className="text-2xl sm:hidden leading-loose">
           {showText && (
             <>
@@ -85,7 +86,7 @@ const Home: React.FC = () => {
               ))}
             </>
           )}
-        </h3>
+        </h3>*/}
         <Link href="/whitepaper">
           <h3 className="text-xl mt-10 underline underline-offset-8">whitepaper</h3>
         </Link>
