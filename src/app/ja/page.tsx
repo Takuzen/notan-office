@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="z-10 flex min-h-screen flex-col items-center justify-between px-5 py-12 sm:p-24">
       <div className="w-full text-center tracking-widest text-2xl">
-        <h1>notan office</h1>
+        <h1>notan</h1>
       </div>
 
       <div className="w-full text-center tracking-widest">
@@ -22,13 +22,10 @@ export default function Home() {
       </div>
 
       <div className="w-full text-center flex flex-row gap-7 justify-center sm:gap-0 sm:justify-evenly">
-        <Link href="https://notan.vercel.app">
+      <Link href="https://notan.vercel.app">
           <div>
-            <h1 className='text-3xl sm:text-4xl'>
-              notan
-            </h1>
-            <p>
-              サービスへ進む{' '}&rarr;
+            <p className='font-serif text-1xl font-semibold text-white bg-red-500 rounded-full px-8 py-2 mt-10'>
+              無料でノートをはじめる
             </p>
           </div>
         </Link>
