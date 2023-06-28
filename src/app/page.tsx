@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="w-full text-center tracking-widest">
-        <h3 className="text-2xl sm:hidden leading-loose">
+        <h3 className="text-2xl inline sm:hidden leading-loose">
           {showText && (
             <>
               {Array.from('Conversational').map((letter, index) => (
@@ -39,11 +39,41 @@ const Home: React.FC = () => {
                 </span>
               ))}
               <br />
-              {Array.from('Your Chat Wall Buddy.').map((letter, index) => (
+              {Array.from('Your').map((letter, index) => (
                 <span
                   key={index + 24}
                   className="letter-animation"
                   style={{ animationDelay: `${(index + 24) * 0.1}s` }}
+                >
+                  {letter}
+                </span>
+              ))}
+              &nbsp;
+              {Array.from('Chat').map((letter, index) => (
+                <span
+                  key={index + 28}
+                  className="letter-animation"
+                  style={{ animationDelay: `${(index + 28) * 0.1}s` }}
+                >
+                  {letter}
+                </span>
+              ))}
+              &nbsp;
+              {Array.from('Wall').map((letter, index) => (
+                <span
+                  key={index + 32}
+                  className="letter-animation"
+                  style={{ animationDelay: `${(index + 32) * 0.1}s` }}
+                >
+                  {letter}
+                </span>
+              ))}
+              &nbsp;
+              {Array.from('Buddy.').map((letter, index) => (
+                <span
+                  key={index + 36}
+                  className="letter-animation"
+                  style={{ animationDelay: `${(index + 36) * 0.1}s` }}
                 >
                   {letter}
                 </span>
@@ -51,8 +81,8 @@ const Home: React.FC = () => {
             </>
           )}
         </h3>
-        {/*
-        <h3 className="text-2xl sm:hidden leading-loose">
+
+        <h3 className="text-2xl hidden sm:inline leading-loose">
           {showText && (
             <>
               {Array.from('Conversational').map((letter, index) => (
@@ -74,8 +104,7 @@ const Home: React.FC = () => {
                   {letter}
                 </span>
               ))}
-              <br />
-              {Array.from('Your Chat Wall Buddy.').map((letter, index) => (
+              {Array.from('Your').map((letter, index) => (
                 <span
                   key={index + 24}
                   className="letter-animation"
@@ -84,9 +113,40 @@ const Home: React.FC = () => {
                   {letter}
                 </span>
               ))}
+              &nbsp;
+              {Array.from('Chat').map((letter, index) => (
+                <span
+                  key={index + 28}
+                  className="letter-animation"
+                  style={{ animationDelay: `${(index + 28) * 0.1}s` }}
+                >
+                  {letter}
+                </span>
+              ))}
+              &nbsp;
+              {Array.from('Wall').map((letter, index) => (
+                <span
+                  key={index + 32}
+                  className="letter-animation"
+                  style={{ animationDelay: `${(index + 32) * 0.1}s` }}
+                >
+                  {letter}
+                </span>
+              ))}
+              &nbsp;
+              {Array.from('Buddy.').map((letter, index) => (
+                <span
+                  key={index + 36}
+                  className="letter-animation"
+                  style={{ animationDelay: `${(index + 36) * 0.1}s` }}
+                >
+                  {letter}
+                </span>
+              ))}
             </>
           )}
-        </h3>*/}
+        </h3>
+        
         <Link href="/whitepaper">
           <h3 className="text-xl mt-10 underline underline-offset-8">whitepaper</h3>
         </Link>
