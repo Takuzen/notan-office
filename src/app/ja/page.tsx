@@ -59,7 +59,7 @@ export default function Home() {
       </div>
 
       <div className="w-full text-center flex flex-row gap-7 justify-center sm:gap-0 sm:justify-evenly">
-        <Link href="https://notan.vercel.app">
+        <Link href="https://www.notan.me/p">
           <div>
             <p className="font-serif text-1xl font-semibold text-white bg-red-500 rounded-full px-8 py-2 mt-10">
               無料でノートをはじめる
