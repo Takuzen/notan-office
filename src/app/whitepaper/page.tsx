@@ -4,7 +4,7 @@ export default function Home() {
       <div className="z-10 w-full leading-loose tracking-widest">
         <p>
           Introduction<br/>
-          notan is a tool that helps organize your thoughts by toggling between writing and conversation. Its main building blocks are minimalist note-taking functionality, replacing traditional folders, and conversational walls that listen to your words and provide support through attentive questioning when you get stuck.
+          notan is a tool that helps organize your thoughts by toggling between writing and conversation. Its main building blocks are minimalist note-taking functionality, removing traditional folders, and conversational walls that listen to your words and provide support through attentive questioning when you get stuck.
           Another feature of notan is its focus on Natural Language User Interface (NLUI). We firmly believe that natural language interaction is the next evolution of user interfaces, transitioning from CLI to GUI.
           <br/><br/>
           The Problem<br/>
